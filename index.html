@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de Datos de Supermercado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    <h1>Base de Datos de Supermercado</h1>
+
+    <h2>Tabla: Productos</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Categoría</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Manzanas</td>
+            <td>1.50</td>
+            <td>100</td>
+            <td>Frutas</td>
+        </tr>
+        <!-- Más filas según sea necesario -->
+    </table>
+
+    <h2>Tabla: Clientes</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Juan Pérez</td>
+            <td>juan@example.com</td>
+            <td>Calle 123, Ciudad</td>
+            <td>123456789</td>
+        </tr>
+        <!-- Más filas según sea necesario -->
+    </table>
+
+    <h2>Tabla: Pedidos</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>ID Cliente</th>
+            <th>Fecha</th>
+            <th>Total</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>2024-06-15</td>
+            <td>35.00</td>
+            <td>En proceso</td>
+        </tr>
+        <!-- Más filas según sea necesario -->
+    </table>
+
+    <h2>Tabla: Empleados</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Puesto</th>
+            <th>Sucursal</th>
+            <th>Salario</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Maria López</td>
+            <td>Cajera</td>
+            <td>Sucursal A</td>
+            <td>2000</td>
+        </tr>
+        <!-- Más filas según sea necesario -->
+    </table>
+
+    <h2>Tabla: Proveedores</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Contacto</th>
+            <th>Teléfono</th>
+            <th>Productos</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Proveedor XYZ</td>
+            <td>Juan Pérez</td>
+            <td>987654321</td>
+            <td>Frutas, Verduras</td>
+        </tr>
+        <!-- Más filas según sea necesario -->
+    </table>
+
+    <h2>Tabla: Sucursales</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Dirección</th>
+            <th>Gerente</th>
+            <th>Horario</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sucursal A</td>
+            <td>Calle Principal 123</td>
+            <td>Pedro Gómez</td>
+            <td>8:00 - 20:00</td>
+        </tr>
+        <!-- Más filas según sea necesario -->
+    </table>
+
+    <h2>Tabla: Ventas</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>ID Producto</th>
+            <th>Cantidad</th>
+            <th>ID Empleado</th>
+            <th>Fecha</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>5</td>
+            <td>1</td>
+            <td>2024-06-15</td>
+        </tr>
+        <!-- Más filas según sea necesario -->
+    </table>
+
+  </body>
+  </html>
